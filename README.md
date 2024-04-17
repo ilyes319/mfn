@@ -1,1 +1,1 @@
-# mfn
+# Matrix Function Networks
