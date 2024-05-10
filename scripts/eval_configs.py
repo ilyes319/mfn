@@ -11,8 +11,8 @@ import ase.io
 import numpy as np
 import torch
 
-from mace import data
-from mace.tools import torch_geometric, torch_tools, utils
+from mace_mfn import data
+from mace_mfn.tools import torch_geometric, torch_tools, utils
 
 
 def parse_args() -> argparse.Namespace:

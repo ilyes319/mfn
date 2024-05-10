@@ -11,9 +11,9 @@ import torch
 from e3nn import o3
 from e3nn.util.jit import compile_mode
 
-from mace.data import AtomicData
-from mace.tools.scatter import scatter_sum
-from mace.tools.torch_geometric.utils import to_dense_adj, to_dense_batch
+from mace_mfn.data import AtomicData
+from mace_mfn.tools.scatter import scatter_sum
+from mace_mfn.tools.torch_geometric.utils import to_dense_adj, to_dense_batch
 
 from .blocks import (
     AtomicEnergiesBlock,

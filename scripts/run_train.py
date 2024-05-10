@@ -16,10 +16,10 @@ from e3nn import o3
 from torch.optim.swa_utils import SWALR, AveragedModel
 from torch_ema import ExponentialMovingAverage
 
-import mace
-from mace import data, modules, tools
-from mace.tools import torch_geometric
-from mace.tools.scripts_utils import (
+import mace_mfn
+from mace_mfn import data, modules, tools
+from mace_mfn.tools import torch_geometric
+from mace_mfn.tools.scripts_utils import (
     create_error_table,
     get_dataset_from_xyz,
     LRScheduler,
@@ -34,7 +34,7 @@ def main() -> None:
     tools.set_seeds(args.seed)
     tools.setup_logger(level=args.log_level, tag=tag, directory=args.log_dir)
     try:
-        logging.info(f"MACE version: {mace.__version__}")
+        logging.info(f"MACE version: {mace_mfn.__version__}")
     except AttributeError:
         logging.info("Cannot find MACE version, please install MACE via pip")
     logging.info(f"Configuration: {args}")
@@ -545,7 +545,7 @@ def main() -> None:
 
         try:
             import git
-            mace_dir = mace.__path__[0]
+            mace_dir = mace_mfn.__path__[0]
             repo = git.Repo(mace_dir, search_parent_directories=True)
             sha = repo.head.object.hexsha
             wandb.run.summary["git_sha"] = sha

@@ -10,7 +10,7 @@ from ase import units
 from ase.md.langevin import Langevin
 from ase.md.velocitydistribution import MaxwellBoltzmannDistribution
 
-from mace.calculators.mace import MACECommitteeCalculator
+from mace_mfn.calculators.mace import MACECommitteeCalculator
 
 
 def parse_args() -> argparse.Namespace:

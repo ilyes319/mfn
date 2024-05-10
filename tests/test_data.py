@@ -1,8 +1,8 @@
 import ase.build
 import numpy as np
 
-from mace.data import AtomicData, Configuration, config_from_atoms, get_neighborhood
-from mace.tools import AtomicNumberTable, torch_geometric
+from mace_mfn.data import AtomicData, Configuration, config_from_atoms, get_neighborhood
+from mace_mfn.tools import AtomicNumberTable, torch_geometric
 
 
 class TestAtomicData:

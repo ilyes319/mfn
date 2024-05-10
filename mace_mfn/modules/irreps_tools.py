@@ -9,7 +9,7 @@ from math import sqrt
 
 import torch
 from e3nn import o3
-from mace.tools import cg
+from mace_mfn.tools import cg
 from e3nn.util.jit import compile_mode
 
 

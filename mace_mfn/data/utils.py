@@ -12,7 +12,7 @@ import ase.data
 import ase.io
 import numpy as np
 
-from mace.tools import AtomicNumberTable
+from mace_mfn.tools import AtomicNumberTable
 
 Vector = np.ndarray  # [3,]
 Positions = np.ndarray  # [..., 3]

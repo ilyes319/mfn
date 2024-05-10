@@ -10,7 +10,7 @@ from ase.atoms import Atoms
 from ase.calculators.test import gradient_test
 from ase.constraints import ExpCellFilter
 
-from mace.calculators.mace import MACECalculator
+from mace_mfn.calculators.mace import MACECalculator
 
 pytest_mace_dir = Path(__file__).parent.parent
 run_train = Path(__file__).parent.parent / "scripts" / "run_train.py"

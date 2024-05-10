@@ -13,8 +13,8 @@ import torch
 from ase.calculators.calculator import Calculator, all_changes
 from ase.stress import full_3x3_to_voigt_6_stress
 
-from mace import data
-from mace.tools import torch_geometric, torch_tools, utils
+from mace_mfn import data
+from mace_mfn.tools import torch_geometric, torch_tools, utils
 
 
 class MACECalculator(Calculator):

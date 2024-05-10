@@ -8,8 +8,8 @@ from e3nn import o3
 from e3nn.util import jit
 from scipy.spatial.transform import Rotation as R
 
-from mace import data, modules, tools
-from mace.tools import torch_geometric
+from mace_mfn import data, modules, tools
+from mace_mfn.tools import torch_geometric
 
 
 @pytest.fixture(scope="module")

@@ -14,9 +14,9 @@ from e3nn import nn, o3
 from e3nn.util.jit import compile_mode
 import wandb
 
-from mace.tools.torch_geometric.utils import to_dense_adj, to_dense_batch
-from mace.tools.torch_tools import get_mask
-from mace.tools.scatter import scatter_sum
+from mace_mfn.tools.torch_geometric.utils import to_dense_adj, to_dense_batch
+from mace_mfn.tools.torch_tools import get_mask
+from mace_mfn.tools.scatter import scatter_sum
 
 from .irreps_tools import (
     construct_blocks_diag,

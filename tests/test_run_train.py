@@ -8,7 +8,7 @@ import numpy as np
 import pytest
 from ase.atoms import Atoms
 
-from mace.calculators.mace import MACECalculator
+from mace_mfn.calculators.mace import MACECalculator
 
 run_train = Path(__file__).parent.parent / "scripts" / "run_train.py"
 

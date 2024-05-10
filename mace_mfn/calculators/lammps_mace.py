@@ -3,8 +3,8 @@ from typing import Dict, List, Optional
 import torch
 from e3nn.util.jit import compile_mode
 
-from mace.modules.utils import get_outputs
-from mace.tools.scatter import scatter_sum
+from mace_mfn.modules.utils import get_outputs
+from mace_mfn.tools.scatter import scatter_sum
 
 
 @compile_mode("script")

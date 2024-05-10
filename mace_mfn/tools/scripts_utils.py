@@ -11,9 +11,9 @@ from typing import Dict, List, Optional, Tuple
 import torch
 from prettytable import PrettyTable
 
-from mace import data
-from mace.data import AtomicData
-from mace.tools import AtomicNumberTable, evaluate, torch_geometric
+from mace_mfn import data
+from mace_mfn.data import AtomicData
+from mace_mfn.tools import AtomicNumberTable, evaluate, torch_geometric
 
 
 @dataclasses.dataclass

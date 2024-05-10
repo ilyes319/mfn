@@ -7,7 +7,7 @@ from typing import Optional, Tuple
 import torch
 
 from torch import Tensor
-from mace.tools.scatter import scatter_sum
+from mace_mfn.tools.scatter import scatter_sum
 
 
 def makedirs(dir):

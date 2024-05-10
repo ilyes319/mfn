@@ -12,8 +12,8 @@ import torch.nn
 import torch.utils.data
 from scipy.constants import c, e
 
-from mace.tools import to_numpy
-from mace.tools.scatter import scatter_sum
+from mace_mfn.tools import to_numpy
+from mace_mfn.tools.scatter import scatter_sum
 
 from .blocks import AtomicEnergiesBlock
 
