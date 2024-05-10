@@ -51,9 +51,9 @@ To reproduce the MFN model on the cumulene data, you can use the `run_train.py` 
 
 ```sh
 python ./mfn/scripts/run_train.py \
-    --train_file="/rds/user/ib467/hpc-work/Equivariant_GNN/mace_mfn_density/GNL-v0.2/gnl-v0.2-train.xyz" \
-    --valid_file="/rds/user/ib467/hpc-work/Equivariant_GNN/mace_mfn_density/GNL-v0.2/gnl-v0.2-val.xyz" \
-    --test_file="/rds/user/ib467/hpc-work/Equivariant_GNN/mace_mfn_density/GNL-v0.2/gnl-v0.2-test.xyz" \
+    --train_file="GNL-v0.2/gnl-v0.2-train.xyz" \
+    --valid_file="GNL-v0.2/gnl-v0.2-val.xyz" \
+    --test_file="GNL-v0.2/gnl-v0.2-test.xyz" \
     --energy_weight=10.0 \
     --forces_weight=100.0 \
     --config_type_weights="{'Default':1.0}" \
