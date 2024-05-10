@@ -50,7 +50,7 @@ pip install ./mfn
 To reproduce the MFN model on the cumulene data, you can use the `run_train.py` script:
 
 ```sh
-python ./mace/scripts/run_train.py \
+python ./mfn/scripts/run_train.py \
     --train_file="/rds/user/ib467/hpc-work/Equivariant_GNN/mace_mfn_density/GNL-v0.2/gnl-v0.2-train.xyz" \
     --valid_file="/rds/user/ib467/hpc-work/Equivariant_GNN/mace_mfn_density/GNL-v0.2/gnl-v0.2-val.xyz" \
     --test_file="/rds/user/ib467/hpc-work/Equivariant_GNN/mace_mfn_density/GNL-v0.2/gnl-v0.2-test.xyz" \
