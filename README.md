@@ -51,6 +51,7 @@ To reproduce the MFN model on the cumulene data, you can use the `run_train.py` 
 
 ```sh
 python ./mfn/scripts/run_train.py \
+    --name="mace_mfn_cumulene" \
     --train_file="GNL-v0.2/gnl-v0.2-train.xyz" \
     --valid_file="GNL-v0.2/gnl-v0.2-val.xyz" \
     --test_file="GNL-v0.2/gnl-v0.2-test.xyz" \
